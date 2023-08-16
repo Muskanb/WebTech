@@ -1,0 +1,64 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner{
+    background-color: #F8F8FB;
+    padding: 3em;
+    display: flex;
+    padding:auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    /* align-items: center;
+    justify-content: center; */
+}
+p{
+    font-family: "Trebuchet MS", Geneva, sans-serif;
+}
+
+.content{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 1.5em;
+    width: 80%;
+    padding: 10px 10px;
+    font-size: small;
+}
+button{
+    background-color: #005797;
+    border: solid 2px #005797;
+    border-radius: 1.5rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.6875rem 1.5rem;
+    cursor: pointer;
+    max-width: 15em;
+}
+
+button:hover{
+    background-color: rgb(4, 4, 94);
+    border-color: black;
+}
+
+table,td,th{
+    margin: 2em;
+    border:1px solid black;
+    max-width: 50%;
+    
+}

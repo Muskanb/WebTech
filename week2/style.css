@@ -1,0 +1,37 @@
+html{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: block;
+}
+table{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+    padding: 5px;
+}
+th{
+    border: 2px solid black;
+    padding: 5px;
+}
+.mirror{
+    color:red;
+}
+.day{
+    background-color: rgb(255, 166, 0);
+    color:black;
+}
+.free{
+    background-color: rgb(201, 199, 199);
+}
+.time{
+    background-color: rgb(178, 224, 238);
+}
